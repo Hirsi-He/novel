@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+
+<struts>
+    <package name="page" extends="struts-default" namespace="/">
+        <action name="home" class="com.novel.action.PageAction" method="homePage">
+            <result name="homePage">/static/pages/home.jsp</result>
+            <!--<allowed-methods>m1,saveUser</allowed-methods>--><!-- struts 2.5 之后，使用通配符必须加上这一行 ，否则无法使用通配符访问-->
+        </action>
+    </package>
+</struts>
