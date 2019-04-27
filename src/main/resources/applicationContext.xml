@@ -3,25 +3,21 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:context="http://www.springframework.org/schema/context"
        xmlns:tx="http://www.springframework.org/schema/tx"
-       xmlns:aop="http://www.springframework.org/schema/aop"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans
-       http://www.springframework.org/schema/beans/spring-beans.xsd
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
        http://www.springframework.org/schema/context
        http://www.springframework.org/schema/context/spring-context.xsd
        http://www.springframework.org/schema/tx
        http://www.springframework.org/schema/tx/spring-tx.xsd
-       http://www.springframework.org/schema/aop
-        ">
-
+    ">
     <context:component-scan base-package="com.novel.action"></context:component-scan>
     <context:component-scan base-package="com.novel.service"></context:component-scan>
     <context:component-scan base-package="com.novel.dao"></context:component-scan>
 
-    <bean id="propertyConfigurer"
-          class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+    <!--配置使springframwork引入jdbc.properties文件，然后就可以通过${mysql.driverClassName}来得到jdbc.properties文件中对应的值了-->
+    <bean id="propertyConfigurer" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
         <property name="location" value="classpath:jdbc.properties"/>
     </bean>
-    <!-- data connection setting -->
+    <!-- 设置数据源连接字符串 -->
     <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
         <property name="driverClass" value="${mysql.driverClassName}"></property>
         <property name="jdbcUrl" value="${mysql.url}"></property>
@@ -51,9 +47,7 @@
         <property name="acquireIncrement">
             <value>20</value>
         </property>
-
     </bean>
-
     <!-- hibernate 管理-->
     <bean id="sessionFactory" class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">
         <!-- 引用上面设置的数据源 -->
@@ -80,23 +74,20 @@
                 <prop key="hibernate.connection.url" >jdbc:mysql://localhost:3306/novel</prop>
                 <prop key="hibernate.connection.driver_class">com.mysql.jdbc.Driver</prop>
             </props>
-
-        </property>
-
-        <!-- 包扫描的方式加载注解类 -->
-        <property name="packagesToScan">
-            <list>
-                <value>com.novel.model</value>
-            </list>
         </property>
         <property name="mappingLocations">
             <list>
-
                 <value>classpath:hibernate.hbm.xml</value>
+
+            </list>
+        </property>
+        <property name="annotatedClasses">
+            <list>
+                <value>com.novel.model.User</value>
+                <value>com.novel.model.Type</value>
             </list>
         </property>
     </bean>
-
     <!-- 用注解来实现事物管理 -->
     <bean id="txManager" class="org.springframework.orm.hibernate5.HibernateTransactionManager">
         <property name="sessionFactory" ref="sessionFactory"/>

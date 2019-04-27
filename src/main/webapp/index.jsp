@@ -1,1 +1,1 @@
-<meta http-equiv="Refresh" content="0;URL=home.action">
+<meta http-equiv="Refresh" content="0;URL=home">

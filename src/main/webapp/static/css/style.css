@@ -1,0 +1,310 @@
+ul,li{
+    list-style: none;
+}
+a{
+    cursor: pointer;
+}
+h3 i{
+    font-family: Arail,PingFangSC-Regular,HelveticaNeue-Light,'Helvetica Neue Light','Microsoft YaHei',sans-serif;
+    font-style: normal;
+    margin: 0 5px;
+}
+a em{
+    font-family: PingFangSC-Regular,HelveticaNeue-Light,'Helvetica Neue Light','Microsoft YaHei',sans-serif;
+    font-size: 13px;
+    font-style: normal;
+}
+/*header*/
+.header-mune {
+    height: 60px;
+    margin: auto;
+    width: 1200px;
+}
+
+.header-logo {
+    float: left;
+    height: 60px;
+    padding: 0 10px;
+}
+.header-logo a img{
+    margin-top: 10px;
+    width: 200px;
+    height: 35px;
+}
+
+.header-left {
+    float: left;
+}
+
+.header-right {
+    float: right;
+}
+.header-search{
+    line-height: 55px;
+}
+.search-input{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #cccccc;
+    color: white;
+    padding: 5px 0;
+}
+.search-input:focus{
+    border-bottom: 2px solid #cccccc;
+}
+.header-search .search-button{
+    display: inline-block;
+    height: 60px;
+    width: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+.header-search .search-button em{
+    font-size: 20px;
+}
+
+/*content*/
+.content{
+    width: 1200px;
+    margin: auto;
+}
+.content div{
+    overflow:hidden;
+}
+/*分类推荐*/
+.type-content{
+    margin-top: 10px;
+    height: 421px;
+}
+.type-left{
+    float: left;
+    width: 213px;
+    border: 1px solid #cccccc;
+}
+.type-text{
+    font-size: 20px;
+    height: 35px;
+    line-height: 35px;
+    background: #cccccc;
+    padding-left: 10px;
+    width: 203px;
+}
+.type-text em{
+    font-size: 20px;
+}
+.type-list li{
+    width: 49%;
+    height: 60px;
+    text-align: center;
+    display: inline-block;
+}
+.type-list a{
+    height: 60px;
+    display: block;
+}
+
+.type-list a:hover > .type-icon{
+    margin-left: 5px;
+    color: orangered;
+}
+.type-list a:hover{
+    color: orangered;
+}
+.type-icon{
+    float: left;
+    margin: 10px 0 0 10px;
+    transition: all .5s;
+}
+.type-info{
+    float: right;
+    margin: 10px 20px 0 0;
+}
+.type-info span:nth-child(3){
+    ont-size: 12px;
+    line-height: 25px;
+    color: #777;
+}
+.type-list a:hover > .type-info span:nth-child(3){
+    color: orangered;
+}
+.type-icon em{
+    font-size: 35px;
+}
+
+.carousel-middle{
+    float: left;
+    margin: 0 10px;
+}
+.carousel-middle div div img{
+    width: 750px;
+    height: 421px;
+}
+.notice-right{
+    float: right;
+    width: 213px;
+    height: 419px;
+    margin: 0;
+    border: 1px solid #cccccc;
+}
+.notice-right ul li{
+    width: 77px;
+}
+/*本周强推*/
+.week-recom-content{
+    margin-top: 50px;
+}
+.week-recom-left{
+    float: left;
+    width: 215px;
+}
+.week-recom-left h3,.week-recom-middle h3,.week-recom-right h3{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    overflow: hidden;
+    height: 24px;
+    padding-bottom: 4px;
+    color: #1a1a1a;
+    border-bottom: 1px solid #666;
+}
+.week-recom-middle{
+    float: left;
+    width: 730px;
+    margin-left: 20px;
+}
+
+.week-recom-right{
+    float: right;
+    width: 215px;
+    margin: 0;
+}
+.week-left-list ul li{
+    height: 30px;
+    line-height: 30px;
+}
+.week-left-list ul li a{
+    overflow: hidden;
+    color: grey;
+    font: 14px/30px PingFangSC-Regular,'-apple-system',Simsun;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.week-left-list ul li a:nth-child(1){
+    margin-left: -8px;
+    float: left;
+}
+.week-left-list ul li a:nth-child(2){
+    max-width: 100px;
+    float: left;
+}
+.week-left-list ul li a:nth-child(3){
+    float: right;
+}
+/*榜单推荐*/
+.rank-recom-content{
+    margin-top: 50px;
+}
+.rank-recom-new,.rank-recom-hot,.rank-recom-click,.rank-recom-collect,.rank-recom-final{
+    width: 215px;
+    float: left;
+    margin-left: 31.25px;
+}
+.rank-recom-content h3{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    overflow: hidden;
+    height: 24px;
+    padding-bottom: 4px;
+    color: #1a1a1a;
+    border-bottom: 1px solid #666;
+}
+.rank-recom-new{
+    margin-left: 0px;
+}
+.hot-recom-content{
+    margin-top: 50px;
+}
+.hot-recom-hot{
+    width: 215px;
+    float: left;
+}
+.hot-recom-hot h3{
+    font-size: 22px;
+    line-height: 30px;
+    overflow: hidden;
+    padding-bottom: 8px;
+    font-weight: 400;
+    height: 24px;
+    color: #1a1a1a;
+    border-bottom: 1px solid #666;
+    font-family: FZZCYSK;
+}
+.hot-recom-type{
+    float: right;
+    width: 985px;
+    padding-top: 4px;
+}
+.hot-type-huan,.hot-type-xia,.hot-type-du,.hot-type-shi,.hot-type-game,.hot-type-ke,.hot-type-other1,.hot-type-other2{
+    display: inline-block;
+    margin-left: 28px;
+    width: 215px;
+}
+.hot-recom-type h3{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    overflow: visible;
+    height: 24px;
+    padding-bottom: 4px;
+    color: #1a1a1a;
+    border-bottom: 1px solid #666;
+    font-family: FZZCYSK;
+}
+/*新书推荐&&完本精品&&最近更新*/
+.new-recom-content,.final-recom-content,.chase-recom-content{
+    margin-top: 50px;
+}
+.new-recom-left,.final-recom-left,.chase-recom-left{
+    float: left;
+    width: 965px;
+    background-color: white;
+}
+.new-recom-left h3,.final-recom-left h3,.chase-recom-left h3{
+    border-bottom: 1px solid #666;
+    font-size: 22px;
+    line-height: 27px;
+    margin-top: -2px;
+    padding-bottom: 6px;
+    font-weight: 400;
+    overflow: hidden;
+    height: 24px;
+    color: #1a1a1a;
+    font-family: FZZCYSK;
+}
+.new-left-carousel,.final-left-carousel,.chase-left-carousel{
+    background-color: wheat;
+    width: 215px;
+    float: left;
+}
+.new-left-book,.final-left-book,.chase-left-book{
+    width: 730px;
+    float: left;
+    margin-left: 20px;
+}
+.new-recom-right,.final-recom-right,.chase-recom-right{
+    float: right;
+    width: 215px;
+    margin: 0;
+}
+.new-recom-right h3,.final-recom-right h3,.chase-recom-right h3{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    overflow: hidden;
+    height: 24px;
+    padding-bottom: 4px;
+    color: #1a1a1a;
+    border-bottom: 1px solid #666;
+    font-family: FZZCYSK;
+}

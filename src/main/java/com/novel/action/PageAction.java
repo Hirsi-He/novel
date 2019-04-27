@@ -1,8 +1,14 @@
 package com.novel.action;
 
+import com.novel.service.BookService;
+import com.novel.service.UserService;
+import com.opensymphony.xwork2.ActionContext;
 import com.opensymphony.xwork2.ActionSupport;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Controller;
+
+import javax.annotation.Resource;
+import java.util.List;
 
 /**
  * @ClassName:PageAction
@@ -14,7 +20,16 @@ import org.springframework.stereotype.Controller;
 @Controller
 @Scope("prototype")
 public class PageAction extends ActionSupport {
+
+    @Resource
+    private UserService userService;
+
+    @Resource
+    private BookService bookService;
+
     public String homePage(){
+        List typeList = bookService.getTypeList();
+        ActionContext.getContext().put("typeList", typeList);
         return "homePage";
     }
 }
