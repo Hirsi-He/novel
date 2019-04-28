@@ -22,7 +22,7 @@
         </ul>
         <ul class="header-right layui-nav">
             <li class="layui-nav-item" lay-unselect="">
-                <a href="javascript:;"><img src="//t.cn/RCzsdCq" class="layui-nav-img">我</a>
+                <a href="javascript:;"><img src="//t.cn/RCzsdCq" class="layui-nav-img">Hirsi</a>
                 <dl class="layui-nav-child">
                     <dd><a href="javascript:;">修改信息</a></dd>
                     <dd><a href="javascript:;">安全管理</a></dd>

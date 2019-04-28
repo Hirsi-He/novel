@@ -84,19 +84,155 @@
                         <a>文娱神国</a>
                         <a>飞月白</a>
                     </li>
+                    <li>
+                        <a><em>「</em>玄幻<em>」</em></a>
+                        <a>文娱神国</a>
+                        <a>飞月白</a>
+                    </li>
+                    <li>
+                        <a><em>「</em>玄幻<em>」</em></a>
+                        <a>文娱神国dsfasdfsdfasdfsdf </a>
+                        <a>飞月白</a>
+                    </li>
+                    <li>
+                        <a><em>「</em>玄幻<em>」</em></a>
+                        <a>文娱神国</a>
+                        <a>飞月白</a>
+                    </li>
+                    <li>
+                        <a><em>「</em>玄幻<em>」</em></a>
+                        <a>文娱神国</a>
+                        <a>飞月白</a>
+                    </li>
+                    <li>
+                        <a><em>「</em>玄幻<em>」</em></a>
+                        <a>文娱神国dsfasdfsdfasdfsdf </a>
+                        <a>飞月白</a>
+                    </li>
+                    <li>
+                        <a><em>「</em>玄幻<em>」</em></a>
+                        <a>文娱神国</a>
+                        <a>飞月白</a>
+                    </li>
+                    <li>
+                        <a><em>「</em>玄幻<em>」</em></a>
+                        <a>文娱神国dsfasdfsdfasdfsdf </a>
+                        <a>飞月白</a>
+                    </li>
                 </ul>
             </div>
         </div>
         <div class="week-recom-middle">
             <h3>编辑推荐</h3>
             <div class="week-middle-list">
-
+                <ul>
+                    <li>
+                        <h3><a>重生战斗民族富二代</a></h3>
+                        <span>1024</span><span>人在追</span><br>
+                        <span>开坦克碾压法拉利，拿机枪扫兰博基尼，玩RPG火箭炮炸游艇</span>
+                    </li
+                    ><li>
+                        <h3><a>重生战斗民族富二代</a></h3>
+                        <span>1024</span><span>人在追</span><br>
+                        <span>开坦克碾压法拉利，拿机枪扫兰博基尼，玩RPG火箭炮炸游艇</span>
+                    </li
+                    ><li>
+                        <h3><a>重生战斗民族富二代</a></h3>
+                        <span>1024</span><span>人在追</span><br>
+                        <span>开坦克碾压法拉利，拿机枪扫兰博基尼，玩RPG火箭炮炸游艇</span>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <h3><a>重生战斗民族富二代</a></h3>
+                        <span>1024</span><span>人在追</span><br>
+                        <span>开坦克碾压法拉利，拿机枪扫兰博基尼，玩RPG火箭炮炸游艇</span>
+                    </li
+                    ><li>
+                        <h3><a>重生战斗民族富二代</a></h3>
+                        <span>1024</span><span>人在追</span><br>
+                        <span>开坦克碾压法拉利，拿机枪扫兰博基尼，玩RPG火箭炮炸游艇</span>
+                    </li
+                    ><li>
+                        <h3><a>重生战斗民族富二代</a></h3>
+                        <span>1024</span><span>人在追</span><br>
+                        <span>开坦克碾压法拉利，拿机枪扫兰博基尼，玩RPG火箭炮炸游艇</span>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <h3><a>重生战斗民族富二代</a></h3>
+                        <span>1024</span><span>人在追</span><br>
+                        <span>开坦克碾压法拉利，拿机枪扫兰博基尼，玩RPG火箭炮炸游艇</span>
+                    </li
+                    ><li>
+                        <h3><a>重生战斗民族富二代</a></h3>
+                        <span>1024</span><span>人在追</span><br>
+                        <span>开坦克碾压法拉利，拿机枪扫兰博基尼，玩RPG火箭炮炸游艇</span>
+                    </li
+                    ><li>
+                        <h3><a>重生战斗民族富二代</a></h3>
+                        <span>1024</span><span>人在追</span><br>
+                        <span>开坦克碾压法拉利，拿机枪扫兰博基尼，玩RPG火箭炮炸游艇</span>
+                    </li>
+                </ul>
             </div>
         </div>
         <div class="week-recom-right">
             <h3>三江<i>·</i>网文新风</h3>
             <div class="week-right-list">
-
+                <ul>
+                    <li>
+                        <a><em>「</em>玄幻<em>」</em></a>
+                        <a>文娱神国</a>
+                        <a>飞月白</a>
+                    </li>
+                    <li>
+                        <a><em>「</em>玄幻<em>」</em></a>
+                        <a>文娱神国dsfasdfsdfasdfsdf </a>
+                        <a>飞月白</a>
+                    </li>
+                    <li>
+                        <a><em>「</em>玄幻<em>」</em></a>
+                        <a>文娱神国</a>
+                        <a>飞月白</a>
+                    </li>
+                    <li>
+                        <a><em>「</em>玄幻<em>」</em></a>
+                        <a>文娱神国</a>
+                        <a>飞月白</a>
+                    </li>
+                    <li>
+                        <a><em>「</em>玄幻<em>」</em></a>
+                        <a>文娱神国dsfasdfsdfasdfsdf </a>
+                        <a>飞月白</a>
+                    </li>
+                    <li>
+                        <a><em>「</em>玄幻<em>」</em></a>
+                        <a>文娱神国</a>
+                        <a>飞月白</a>
+                    </li>
+                    <li>
+                        <a><em>「</em>玄幻<em>」</em></a>
+                        <a>文娱神国</a>
+                        <a>飞月白</a>
+                    </li>
+                    <li>
+                        <a><em>「</em>玄幻<em>」</em></a>
+                        <a>文娱神国dsfasdfsdfasdfsdf </a>
+                        <a>飞月白</a>
+                    </li>
+                    <li>
+                        <a><em>「</em>玄幻<em>」</em></a>
+                        <a>文娱神国</a>
+                        <a>飞月白</a>
+                    </li>
+                    <li>
+                        <a><em>「</em>玄幻<em>」</em></a>
+                        <a>文娱神国dsfasdfsdfasdfsdf </a>
+                        <a>飞月白</a>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
@@ -118,38 +254,7 @@
             <h3>完本榜</h3>
         </div>
     </div>
-    <%--热门作品--%>
-    <div class="hot-recom-content">
-        <div class="hot-recom-hot">
-            <h3>热门作品</h3>
-        </div>
-        <div class="hot-recom-type">
-            <div class="hot-type-huan">
-                <h3>玄幻<i>·</i>奇幻</h3>
-            </div>
-            <div class="hot-type-xia">
-                <h3>武侠<i>·</i>仙侠</h3>
-            </div>
-            <div class="hot-type-du">
-                <h3>都市<i>·</i>爱情</h3>
-            </div>
-            <div class="hot-type-shi">
-                <h3>历史<i>·</i>军事</h3>
-            </div>
-            <div class="hot-type-game">
-                <h3>游戏<i>·</i>体育</h3>
-            </div>
-            <div class="hot-type-ke">
-                <h3>科幻<i>·</i>悬疑</h3>
-            </div>
-            <div class="hot-type-other1">
-                1
-            </div>
-            <div class="hot-type-other2">
-                2
-            </div>
-        </div>
-    </div>
+
     <%--新书推荐--%>
     <div class="new-recom-content">
         <div class="new-recom-left">

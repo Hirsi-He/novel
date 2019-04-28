@@ -1,5 +1,9 @@
 ul,li{
-    list-style: none;
+    list-style-type :none;
+}
+ul{
+    margin:0;
+    padding:0;
 }
 a{
     cursor: pointer;
@@ -157,6 +161,9 @@ a em{
     float: left;
     width: 215px;
 }
+.week-recom-left h3{
+    margin-bottom: 5px;
+}
 .week-recom-left h3,.week-recom-middle h3,.week-recom-right h3{
     font-size: 18px;
     font-weight: 400;
@@ -169,35 +176,64 @@ a em{
 }
 .week-recom-middle{
     float: left;
-    width: 730px;
-    margin-left: 20px;
+    width: 720px;
+    margin-left: 25px;
 }
+.week-middle-list ul{
+    padding: 15px 0;
+    border-top: 1px solid #CCCCCC;
+}
+.week-middle-list ul:first-child{
+    border: none;
+}
+.week-middle-list ul li{
+    width: 220px;
+    display: inline-block;
+    margin-left: 30px;
+}
+.week-middle-list ul li:first-child{
+    margin-left: 0;
+}
+.week-middle-list ul li h3{
+    overflow: hidden;
+    height: 20px;
+    font-size: 14px;
+    border: none;
+}
+.week-middle-list ul li span:nth-child(2){
 
+}
+.week-middle-list ul li span:nth-child(3){
+
+}
+.week-middle-list ul li span:nth-child(5){
+    font-size: 12px;
+}
 .week-recom-right{
     float: right;
     width: 215px;
     margin: 0;
 }
-.week-left-list ul li{
+.week-left-list ul li,.week-recom-right ul li{
     height: 30px;
     line-height: 30px;
 }
-.week-left-list ul li a{
+.week-left-list ul li a,.week-recom-right ul li a{
     overflow: hidden;
     color: grey;
     font: 14px/30px PingFangSC-Regular,'-apple-system',Simsun;
     text-overflow: ellipsis;
     white-space: nowrap;
 }
-.week-left-list ul li a:nth-child(1){
+.week-left-list ul li a:nth-child(1),.week-recom-right ul li a:nth-child(1){
     margin-left: -8px;
     float: left;
 }
-.week-left-list ul li a:nth-child(2){
+.week-left-list ul li a:nth-child(2),.week-recom-right ul li a:nth-child(2){
     max-width: 100px;
     float: left;
 }
-.week-left-list ul li a:nth-child(3){
+.week-left-list ul li a:nth-child(3),.week-recom-right ul li a:nth-child(3){
     float: right;
 }
 /*榜单推荐*/
@@ -221,45 +257,6 @@ a em{
 }
 .rank-recom-new{
     margin-left: 0px;
-}
-.hot-recom-content{
-    margin-top: 50px;
-}
-.hot-recom-hot{
-    width: 215px;
-    float: left;
-}
-.hot-recom-hot h3{
-    font-size: 22px;
-    line-height: 30px;
-    overflow: hidden;
-    padding-bottom: 8px;
-    font-weight: 400;
-    height: 24px;
-    color: #1a1a1a;
-    border-bottom: 1px solid #666;
-    font-family: FZZCYSK;
-}
-.hot-recom-type{
-    float: right;
-    width: 985px;
-    padding-top: 4px;
-}
-.hot-type-huan,.hot-type-xia,.hot-type-du,.hot-type-shi,.hot-type-game,.hot-type-ke,.hot-type-other1,.hot-type-other2{
-    display: inline-block;
-    margin-left: 28px;
-    width: 215px;
-}
-.hot-recom-type h3{
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 25px;
-    overflow: visible;
-    height: 24px;
-    padding-bottom: 4px;
-    color: #1a1a1a;
-    border-bottom: 1px solid #666;
-    font-family: FZZCYSK;
 }
 /*新书推荐&&完本精品&&最近更新*/
 .new-recom-content,.final-recom-content,.chase-recom-content{
