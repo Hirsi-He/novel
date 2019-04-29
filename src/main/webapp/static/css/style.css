@@ -5,6 +5,9 @@ ul{
     margin:0;
     padding:0;
 }
+em,i{
+    font-style: normal;
+}
 a{
     cursor: pointer;
 }
@@ -258,6 +261,53 @@ a em{
 .rank-recom-new{
     margin-left: 0px;
 }
+.rank-recom-new ul li{
+    display: inline-block;
+    width: 100%;
+}
+.rank-one{
+    padding: 15px 0;
+}
+.one-left{
+    width: 60%;
+    float: left;
+}
+.one-left h4{
+    font: 16px/24px PingFangSC-Regular,HelveticaNeue-Light,'Helvetica Neue Light','Microsoft YaHei',sans-serif;
+    overflow: hidden;
+    height: 40px;
+    line-height: 40px;
+    color: #1a1a1a;
+}
+.one-left p{
+    font-size: 12px;
+    overflow: hidden;
+    height: 24px;
+    margin-bottom: 4px;
+    padding: 3px 0 0;
+    color: #bf2c24;
+}
+.one-left p em{
+    font-family: Arial;
+    font-size: 18px;
+    margin-right: 3px;
+}
+.one-left p.author{
+    font-family: PingFangSC-Regular,'-apple-system',Simsun;
+    font-size: 12px;
+    overflow: hidden;
+    height: 16px;
+}
+.author a{
+    color: #a6a6a6;
+}
+.one-right{
+    width: 40%;
+    float: right;
+}
+.one-right a img{
+    width: 100%;
+}
 /*新书推荐&&完本精品&&最近更新*/
 .new-recom-content,.final-recom-content,.chase-recom-content{
     margin-top: 50px;
@@ -279,16 +329,101 @@ a em{
     color: #1a1a1a;
     font-family: FZZCYSK;
 }
-.new-left-carousel,.final-left-carousel,.chase-left-carousel{
+/*.new-left-carousel,.final-left-carousel,.chase-left-carousel{
     background-color: wheat;
     width: 215px;
     float: left;
-}
+}*/
 .new-left-book,.final-left-book,.chase-left-book{
-    width: 730px;
+    width: 965px;
     float: left;
-    margin-left: 20px;
+    /*margin-left: 20px;*/
 }
+.new-left-book ul,.final-left-book ul{
+    padding: 20px 0;
+    border-top: 1px solid #CCCCCC;
+}
+.new-left-book ul li,.final-left-book ul li{
+    display: inline-block;
+    margin-left: 25px;
+    width: 305px;
+}
+.new-left-book ul li:first-child,.final-left-book ul li:first-child{
+    margin-left: 0;
+}
+.new-left-book ul:first-child,.final-left-book ul:first-child{
+    border: none;
+}
+.book-image{
+    float: left;
+    width: 80px;
+    height: 100px;
+    margin-right: 10px;
+}
+.book-image a img{
+    height: 100%;
+}
+.book-info{
+    width: 215px;
+    float: left;
+}
+.book-info h3{
+    font: 16px/21px PingFangSC-Regular,HelveticaNeue-Light,'Helvetica Neue Light','Microsoft YaHei',sans-serif;
+    overflow: hidden;
+    height: 21px;
+    margin-top: -3px;
+    margin-bottom: 8px;
+    border: none;
+}
+.book-info p{
+    font: 12px/20px PingFangSC-Regular,'-apple-system',Simsun;
+    overflow: hidden;
+    height: 40px;
+    margin-bottom: 10px;
+    color: #666;
+}
+.state-box{
+    font-family: PingFangSC-Regular,'-apple-system',Simsun;
+    font-size: 12px;
+    line-height: 18px;
+}
+.state-box span{
+    max-width: 62px;
+    height: 18px;
+    color: #bf2c24;
+    border: 1px solid #df9591;
+}
+.state-box i{
+    max-width: 52px;
+    height: 18px;
+    margin-right: 8px;
+    color: #a6a6a6;
+    border: 1px solid #bfbfbf;
+}
+.state-box a{
+    display: block;
+    overflow: hidden;
+    height: 18px;
+    margin-top: 2px;
+    padding-right: 10px;
+    color: #a6a6a6;
+}
+.state-box a img{
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin: -2px 5px 0 0;
+    vertical-align: middle;
+    border-radius: 7px;
+}
+.state-box i,.state-box span{
+    float: right;
+    overflow: hidden;
+    padding: 0 3px;
+    text-align: center;
+    border-radius: 1px;
+}
+
 .new-recom-right,.final-recom-right,.chase-recom-right{
     float: right;
     width: 215px;
@@ -304,4 +439,11 @@ a em{
     color: #1a1a1a;
     border-bottom: 1px solid #666;
     font-family: FZZCYSK;
+}
+.footer{
+    text-align: center;
+    height: 44px;
+    line-height: 44px;
+    margin-top: 50px;
+    background-color: #eee;
 }

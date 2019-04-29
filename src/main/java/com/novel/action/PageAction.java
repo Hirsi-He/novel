@@ -27,6 +27,10 @@ public class PageAction extends ActionSupport {
     @Resource
     private BookService bookService;
 
+    public String adminPage(){
+        return "adminPage";
+    }
+
     public String homePage(){
         List typeList = bookService.getTypeList();
         ActionContext.getContext().put("typeList", typeList);

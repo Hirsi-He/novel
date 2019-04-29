@@ -9,10 +9,21 @@
     <constant name="struts.action.excludePattern" value="/static/.*?"/>
     <!--去掉.action后缀-->
     <constant name="struts.action.extension" value=","/>
+    <!--配置404页面-->
+    <package name="error" extends="struts-default">
+        <default-action-ref name="notFound"/>
+        <action name="notFound">
+            <result>/WEB-INF/pages/404.jsp</result>
+        </action>
+    </package>
+    <!--页面跳转-->
     <package name="page" extends="struts-default" namespace="/">
         <action name="home" class="com.novel.action.PageAction" method="homePage">
             <result name="homePage">/WEB-INF/pages/home.jsp</result>
             <!--<allowed-methods>m1,saveUser</allowed-methods>--><!-- struts 2.5 之后，使用通配符必须加上这一行 ，否则无法使用通配符访问-->
+        </action>
+        <action name="admin" class="com.novel.action.PageAction" method="adminPage">
+            <result name="adminPage">/WEB-INF/pages/admin/admin.jsp</result>
         </action>
     </package>
 </struts>

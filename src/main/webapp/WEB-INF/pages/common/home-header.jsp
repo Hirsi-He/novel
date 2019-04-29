@@ -14,7 +14,7 @@
             <a class="logo-link" href="" title="起灵小说网"><img class="logo-image" src="static/img/logo.png"></a>
         </div>
         <ul class="header-left layui-nav" lay-filter="demo">
-            <li class="layui-nav-item"><a href="">全部作品</a></li>
+            <li class="layui-nav-item"><a href="all">全部作品</a></li>
             <li class="layui-nav-item"><a href="">排行</a></li>
             <li class="layui-nav-item"><a href="">完本</a></li>
             <li class="layui-nav-item"><a href="">免费</a></li>

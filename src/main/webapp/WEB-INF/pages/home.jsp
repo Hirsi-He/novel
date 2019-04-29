@@ -23,7 +23,7 @@
     <link data-ignore="true" rel="shortcut icon" type="image/x-icon" href="static/favicon.ico">
 </head>
 <body>
-<%@include file="home-header.jsp" %>
+<%@include file="common/home-header.jsp" %>
 <div class="content">
     <%--分类推荐--%>
     <div class="type-content">
@@ -240,18 +240,118 @@
     <div class="rank-recom-content">
         <div class="rank-recom-new">
             <h3>原创风云榜<i>·</i>新书</h3>
+            <ul>
+                <li>
+                    <div class="rank-one">
+                        <div class="one-left">
+                            <span class="layui-badge">NO.1</span>
+                            <h4><a>欧神</a></h4>
+                            <p><em>10000</em>月票</p>
+                            <p class="author"><a>都市</a><i>·</i><a>唐家三少</a></p>
+                        </div>
+                        <div class="one-right">
+                            <a><img src="https://bookcover.yuewen.com/qdbimg/349573/1012237441/90"></a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <span class="layui-badge">2</span>
+                    <a>文娱神国</a>
+                    <a>飞月白</a>
+                </li>
+            </ul>
         </div>
         <div class="rank-recom-hot">
             <h3>24小时热销榜</h3>
+            <ul>
+                <li>
+                    <div class="rank-one">
+                        <div class="one-left">
+                            <span class="layui-badge">NO.1</span>
+                            <h4><a>欧神</a></h4>
+                            <p><em>10000</em>月票</p>
+                            <p class="author"><a>都市</a><i>·</i><a>唐家三少</a></p>
+                        </div>
+                        <div class="one-right">
+                            <a><img src="https://bookcover.yuewen.com/qdbimg/349573/1012237441/90"></a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <span class="layui-badge">2</span>
+                    <a>文娱神国</a>
+                    <a>飞月白</a>
+                </li>
+            </ul>
         </div>
         <div class="rank-recom-click">
             <h3>新锐会员点击榜</h3>
+            <ul>
+                <li>
+                    <div class="rank-one">
+                        <div class="one-left">
+                            <span class="layui-badge">NO.1</span>
+                            <h4><a>欧神</a></h4>
+                            <p><em>10000</em>月票</p>
+                            <p class="author"><a>都市</a><i>·</i><a>唐家三少</a></p>
+                        </div>
+                        <div class="one-right">
+                            <a><img src="https://bookcover.yuewen.com/qdbimg/349573/1012237441/90"></a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <span class="layui-badge">2</span>
+                    <a>文娱神国</a>
+                    <a>飞月白</a>
+                </li>
+            </ul>
         </div>
         <div class="rank-recom-collect">
             <h3>人气收藏榜</h3>
+            <ul>
+                <li>
+                    <div class="rank-one">
+                        <div class="one-left">
+                            <span class="layui-badge">NO.1</span>
+                            <h4><a>欧神</a></h4>
+                            <p><em>10000</em>月票</p>
+                            <p class="author"><a>都市</a><i>·</i><a>唐家三少</a></p>
+                        </div>
+                        <div class="one-right">
+                            <a><img src="https://bookcover.yuewen.com/qdbimg/349573/1012237441/90"></a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <span class="layui-badge">2</span>
+                    <a>文娱神国</a>
+                    <a>飞月白</a>
+                </li>
+            </ul>
         </div>
         <div class="rank-recom-final">
             <h3>完本榜</h3>
+            <ul>
+                <li>
+                    <div class="rank-one">
+                        <div class="one-left">
+                            <span class="layui-badge">NO.1</span>
+                            <h4><a>欧神</a></h4>
+                            <p><em>10000</em>月票</p>
+                            <p class="author"><a>都市</a><i>·</i><a>唐家三少</a></p>
+                        </div>
+                        <div class="one-right">
+                            <a><img src="https://bookcover.yuewen.com/qdbimg/349573/1012237441/90"></a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <span class="layui-badge">2</span>
+                    <a>文娱神国</a>
+                    <a>飞月白</a>
+                </li>
+            </ul>
         </div>
     </div>
 
@@ -259,8 +359,141 @@
     <div class="new-recom-content">
         <div class="new-recom-left">
             <h3>新书推荐</h3>
-            <div class="new-left-carousel"></div>
-            <div class="new-left-book"></div>
+            <%--<div class="new-left-carousel"></div>--%>
+            <div class="new-left-book">
+                <ul>
+                    <li>
+                        <div class="book-image">
+                            <a><img src="https://bookcover.yuewen.com/qdbimg/349573/1013739221/90"></a>
+                        </div>
+                        <div class="book-info">
+                            <h3><a>喵星人的幸福生活</a></h3>
+                            <p>唐烦打算自己也学习一下那些老前辈，锻练一下游泳，顺便去香港旅游一圈。</p>
+                            <div class="state-box">
+                                <span>日更3千+</span>
+                                <i>都市生活</i>
+                                <a><img src="http://t.cn/RCzsdCq">Hirsi</a>
+                            </div>
+                        </div>
+                    </li
+                    ><li>
+                    <div class="book-image">
+                        <a><img src="https://bookcover.yuewen.com/qdbimg/349573/1013739221/90"></a>
+                    </div>
+                    <div class="book-info">
+                        <h3><a>喵星人的幸福生活</a></h3>
+                        <p>唐烦打算自己也学习一下那些老前辈，锻练一下游泳，顺便去香港旅游一圈。</p>
+                        <div class="state-box">
+                            <span>日更3千+</span>
+                            <i>都市生活</i>
+                            <a><img src="https://qidian.gtimg.com/qd/images/ico/user.f22d3.png">絮de夏</a>
+                        </div>
+                    </div>
+                    </li
+                    ><li>
+                    <div class="book-image">
+                        <a><img src="https://bookcover.yuewen.com/qdbimg/349573/1013739221/90"></a>
+                    </div>
+                    <div class="book-info">
+                        <h3><a>喵星人的幸福生活</a></h3>
+                        <p>唐烦打算自己也学习一下那些老前辈，锻练一下游泳，顺便去香港旅游一圈。</p>
+                        <div class="state-box">
+                            <span>日更3千+</span>
+                            <i>都市生活</i>
+                            <a><img src="https://qidian.gtimg.com/qd/images/ico/user.f22d3.png">絮de夏</a>
+                        </div>
+                    </div>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <div class="book-image">
+                            <a><img src="https://bookcover.yuewen.com/qdbimg/349573/1013739221/90"></a>
+                        </div>
+                        <div class="book-info">
+                            <h3><a>喵星人的幸福生活</a></h3>
+                            <p>唐烦打算自己也学习一下那些老前辈，锻练一下游泳，顺便去香港旅游一圈。</p>
+                            <div class="state-box">
+                                <span>日更3千+</span>
+                                <i>都市生活</i>
+                                <a><img src="https://qidian.gtimg.com/qd/images/ico/user.f22d3.png">絮de夏</a>
+                            </div>
+                        </div>
+                    </li
+                    ><li>
+                    <div class="book-image">
+                        <a><img src="https://bookcover.yuewen.com/qdbimg/349573/1013739221/90"></a>
+                    </div>
+                    <div class="book-info">
+                        <h3><a>喵星人的幸福生活</a></h3>
+                        <p>唐烦打算自己也学习一下那些老前辈，锻练一下游泳，顺便去香港旅游一圈。</p>
+                        <div class="state-box">
+                            <span>日更3千+</span>
+                            <i>都市生活</i>
+                            <a><img src="https://qidian.gtimg.com/qd/images/ico/user.f22d3.png">絮de夏</a>
+                        </div>
+                    </div>
+                </li
+                ><li>
+                    <div class="book-image">
+                        <a><img src="https://bookcover.yuewen.com/qdbimg/349573/1013739221/90"></a>
+                    </div>
+                    <div class="book-info">
+                        <h3><a>喵星人的幸福生活</a></h3>
+                        <p>唐烦打算自己也学习一下那些老前辈，锻练一下游泳，顺便去香港旅游一圈。</p>
+                        <div class="state-box">
+                            <span>日更3千+</span>
+                            <i>都市生活</i>
+                            <a><img src="https://qidian.gtimg.com/qd/images/ico/user.f22d3.png">絮de夏</a>
+                        </div>
+                    </div>
+                </li>
+                </ul>
+                <ul>
+                    <li>
+                        <div class="book-image">
+                            <a><img src="https://bookcover.yuewen.com/qdbimg/349573/1013739221/90"></a>
+                        </div>
+                        <div class="book-info">
+                            <h3><a>喵星人的幸福生活</a></h3>
+                            <p>唐烦打算自己也学习一下那些老前辈，锻练一下游泳，顺便去香港旅游一圈。</p>
+                            <div class="state-box">
+                                <span>日更3千+</span>
+                                <i>都市生活</i>
+                                <a><img src="https://qidian.gtimg.com/qd/images/ico/user.f22d3.png">絮de夏</a>
+                            </div>
+                        </div>
+                    </li
+                    ><li>
+                    <div class="book-image">
+                        <a><img src="https://bookcover.yuewen.com/qdbimg/349573/1013739221/90"></a>
+                    </div>
+                    <div class="book-info">
+                        <h3><a>喵星人的幸福生活</a></h3>
+                        <p>唐烦打算自己也学习一下那些老前辈，锻练一下游泳，顺便去香港旅游一圈。</p>
+                        <div class="state-box">
+                            <span>日更3千+</span>
+                            <i>都市生活</i>
+                            <a><img src="https://qidian.gtimg.com/qd/images/ico/user.f22d3.png">絮de夏</a>
+                        </div>
+                    </div>
+                </li
+                ><li>
+                    <div class="book-image">
+                        <a><img src="https://bookcover.yuewen.com/qdbimg/349573/1013739221/90"></a>
+                    </div>
+                    <div class="book-info">
+                        <h3><a>喵星人的幸福生活</a></h3>
+                        <p>唐烦打算自己也学习一下那些老前辈，锻练一下游泳，顺便去香港旅游一圈。</p>
+                        <div class="state-box">
+                            <span>日更3千+</span>
+                            <i>都市生活</i>
+                            <a><img src="https://qidian.gtimg.com/qd/images/ico/user.f22d3.png">絮de夏</a>
+                        </div>
+                    </div>
+                </li>
+                </ul>
+            </div>
         </div>
         <div class="new-recom-right">
             <h3>新人<i>·</i>签约新书榜</h3>
@@ -271,8 +504,141 @@
     <div class="final-recom-content">
         <div class="final-recom-left">
             <h3>完本精品</h3>
-            <div class="final-left-carousel"></div>
-            <div class="final-left-book"></div>
+            <%--<div class="final-left-carousel"></div>--%>
+            <div class="final-left-book">
+                <ul>
+                    <li>
+                        <div class="book-image">
+                            <a><img src="https://bookcover.yuewen.com/qdbimg/349573/1013739221/90"></a>
+                        </div>
+                        <div class="book-info">
+                            <h3><a>喵星人的幸福生活</a></h3>
+                            <p>唐烦打算自己也学习一下那些老前辈，锻练一下游泳，顺便去香港旅游一圈。</p>
+                            <div class="state-box">
+                                <span>日更3千+</span>
+                                <i>都市生活</i>
+                                <a><img src="https://qidian.gtimg.com/qd/images/ico/user.f22d3.png">絮de夏</a>
+                            </div>
+                        </div>
+                    </li
+                    ><li>
+                    <div class="book-image">
+                        <a><img src="https://bookcover.yuewen.com/qdbimg/349573/1013739221/90"></a>
+                    </div>
+                    <div class="book-info">
+                        <h3><a>喵星人的幸福生活</a></h3>
+                        <p>唐烦打算自己也学习一下那些老前辈，锻练一下游泳，顺便去香港旅游一圈。</p>
+                        <div class="state-box">
+                            <span>日更3千+</span>
+                            <i>都市生活</i>
+                            <a><img src="https://qidian.gtimg.com/qd/images/ico/user.f22d3.png">絮de夏</a>
+                        </div>
+                    </div>
+                </li
+                ><li>
+                    <div class="book-image">
+                        <a><img src="https://bookcover.yuewen.com/qdbimg/349573/1013739221/90"></a>
+                    </div>
+                    <div class="book-info">
+                        <h3><a>喵星人的幸福生活</a></h3>
+                        <p>唐烦打算自己也学习一下那些老前辈，锻练一下游泳，顺便去香港旅游一圈。</p>
+                        <div class="state-box">
+                            <span>日更3千+</span>
+                            <i>都市生活</i>
+                            <a><img src="https://qidian.gtimg.com/qd/images/ico/user.f22d3.png">絮de夏</a>
+                        </div>
+                    </div>
+                </li>
+                </ul>
+                <ul>
+                    <li>
+                        <div class="book-image">
+                            <a><img src="https://bookcover.yuewen.com/qdbimg/349573/1013739221/90"></a>
+                        </div>
+                        <div class="book-info">
+                            <h3><a>喵星人的幸福生活</a></h3>
+                            <p>唐烦打算自己也学习一下那些老前辈，锻练一下游泳，顺便去香港旅游一圈。</p>
+                            <div class="state-box">
+                                <span>日更3千+</span>
+                                <i>都市生活</i>
+                                <a><img src="https://qidian.gtimg.com/qd/images/ico/user.f22d3.png">絮de夏</a>
+                            </div>
+                        </div>
+                    </li
+                    ><li>
+                    <div class="book-image">
+                        <a><img src="https://bookcover.yuewen.com/qdbimg/349573/1013739221/90"></a>
+                    </div>
+                    <div class="book-info">
+                        <h3><a>喵星人的幸福生活</a></h3>
+                        <p>唐烦打算自己也学习一下那些老前辈，锻练一下游泳，顺便去香港旅游一圈。</p>
+                        <div class="state-box">
+                            <span>日更3千+</span>
+                            <i>都市生活</i>
+                            <a><img src="https://qidian.gtimg.com/qd/images/ico/user.f22d3.png">絮de夏</a>
+                        </div>
+                    </div>
+                </li
+                ><li>
+                    <div class="book-image">
+                        <a><img src="https://bookcover.yuewen.com/qdbimg/349573/1013739221/90"></a>
+                    </div>
+                    <div class="book-info">
+                        <h3><a>喵星人的幸福生活</a></h3>
+                        <p>唐烦打算自己也学习一下那些老前辈，锻练一下游泳，顺便去香港旅游一圈。</p>
+                        <div class="state-box">
+                            <span>日更3千+</span>
+                            <i>都市生活</i>
+                            <a><img src="https://qidian.gtimg.com/qd/images/ico/user.f22d3.png">絮de夏</a>
+                        </div>
+                    </div>
+                </li>
+                </ul>
+                <ul>
+                    <li>
+                        <div class="book-image">
+                            <a><img src="https://bookcover.yuewen.com/qdbimg/349573/1013739221/90"></a>
+                        </div>
+                        <div class="book-info">
+                            <h3><a>喵星人的幸福生活</a></h3>
+                            <p>唐烦打算自己也学习一下那些老前辈，锻练一下游泳，顺便去香港旅游一圈。</p>
+                            <div class="state-box">
+                                <span>日更3千+</span>
+                                <i>都市生活</i>
+                                <a><img src="https://qidian.gtimg.com/qd/images/ico/user.f22d3.png">絮de夏</a>
+                            </div>
+                        </div>
+                    </li
+                    ><li>
+                    <div class="book-image">
+                        <a><img src="https://bookcover.yuewen.com/qdbimg/349573/1013739221/90"></a>
+                    </div>
+                    <div class="book-info">
+                        <h3><a>喵星人的幸福生活</a></h3>
+                        <p>唐烦打算自己也学习一下那些老前辈，锻练一下游泳，顺便去香港旅游一圈。</p>
+                        <div class="state-box">
+                            <span>日更3千+</span>
+                            <i>都市生活</i>
+                            <a><img src="https://qidian.gtimg.com/qd/images/ico/user.f22d3.png">絮de夏</a>
+                        </div>
+                    </div>
+                </li
+                ><li>
+                    <div class="book-image">
+                        <a><img src="https://bookcover.yuewen.com/qdbimg/349573/1013739221/90"></a>
+                    </div>
+                    <div class="book-info">
+                        <h3><a>喵星人的幸福生活</a></h3>
+                        <p>唐烦打算自己也学习一下那些老前辈，锻练一下游泳，顺便去香港旅游一圈。</p>
+                        <div class="state-box">
+                            <span>日更3千+</span>
+                            <i>都市生活</i>
+                            <a><img src="https://qidian.gtimg.com/qd/images/ico/user.f22d3.png">絮de夏</a>
+                        </div>
+                    </div>
+                </li>
+                </ul>
+            </div>
         </div>
         <div class="final-recom-right">
             <h3>最近完本</h3>
@@ -292,6 +658,7 @@
             </div>
         </div>
 </div>
+<%@include file="common/footer.jsp"%>
 </body>
 <script>
     layui.use(['carousel', 'element', 'form'], function () {
