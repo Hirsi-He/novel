@@ -15,10 +15,10 @@
         </div>
         <ul class="header-left layui-nav" lay-filter="demo">
             <li class="layui-nav-item"><a href="all">全部作品</a></li>
-            <li class="layui-nav-item"><a href="">排行</a></li>
-            <li class="layui-nav-item"><a href="">完本</a></li>
-            <li class="layui-nav-item"><a href="">免费</a></li>
-            <li class="layui-nav-item"><a href="">历史阅读</a></li>
+            <li class="layui-nav-item"><a href="rank">排行</a></li>
+            <li class="layui-nav-item"><a href="final">完本</a></li>
+            <li class="layui-nav-item"><a href="free">免费</a></li>
+            <li class="layui-nav-item"><a href="record">历史阅读</a></li>
         </ul>
         <ul class="header-right layui-nav">
             <li class="layui-nav-item" lay-unselect="">

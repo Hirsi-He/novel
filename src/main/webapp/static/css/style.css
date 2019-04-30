@@ -60,16 +60,20 @@ a em{
     border-bottom: 2px solid #cccccc;
 }
 .header-search .search-button{
+    color: rgba(255,255,255,.7);
     display: inline-block;
     height: 60px;
     width: 30px;
     text-align: center;
     cursor: pointer;
+    transition: all .5s;
+}
+.header-search .search-button:hover{
+    color: rgba(255,255,255,1);
 }
 .header-search .search-button em{
     font-size: 20px;
 }
-
 /*content*/
 .content{
     width: 1200px;
@@ -243,7 +247,7 @@ a em{
 .rank-recom-content{
     margin-top: 50px;
 }
-.rank-recom-new,.rank-recom-hot,.rank-recom-click,.rank-recom-collect,.rank-recom-final{
+.rank-recom-list{
     width: 215px;
     float: left;
     margin-left: 31.25px;
@@ -258,12 +262,29 @@ a em{
     color: #1a1a1a;
     border-bottom: 1px solid #666;
 }
-.rank-recom-new{
+.rank-recom-list:first-child{
     margin-left: 0px;
 }
-.rank-recom-new ul li{
+.rank-recom-list ul li{
     display: inline-block;
     width: 100%;
+    padding: 10px 0;
+    border-top: 1px solid #CCCCCC;
+}
+.rank-recom-list ul li:first-child{
+    padding: 0;
+}
+.rank-recom-list ul li span.layui-badge{
+    background-color: #8D8D8D;
+}
+.rank-recom-list ul li:first-child span.layui-badge{
+    background-color: #bf2c24;
+}
+.rank-recom-list ul li:nth-child(2) span.layui-badge{
+    background-color: orangered;
+}
+.rank-recom-list ul li:nth-child(3) span.layui-badge{
+    background-color: #e6bf25;
 }
 .rank-one{
     padding: 15px 0;
@@ -271,6 +292,9 @@ a em{
 .one-left{
     width: 60%;
     float: left;
+}
+.one-left span.layui-badge{
+    padding: 2px 6px;
 }
 .one-left h4{
     font: 16px/24px PingFangSC-Regular,HelveticaNeue-Light,'Helvetica Neue Light','Microsoft YaHei',sans-serif;
@@ -308,16 +332,26 @@ a em{
 .one-right a img{
     width: 100%;
 }
+.rank-last span{
+    float: left;
+}
+.rank-last a{
+    float: left;
+    margin-left: 5px;
+}
+.rank-last a:last-child{
+    float: right;
+}
 /*新书推荐&&完本精品&&最近更新*/
-.new-recom-content,.final-recom-content,.chase-recom-content{
+.new-recom-content,.chase-recom-content{
     margin-top: 50px;
 }
-.new-recom-left,.final-recom-left,.chase-recom-left{
+.new-recom-left,.chase-recom-left{
     float: left;
     width: 965px;
     background-color: white;
 }
-.new-recom-left h3,.final-recom-left h3,.chase-recom-left h3{
+.new-recom-left h3,.chase-recom-left h3{
     border-bottom: 1px solid #666;
     font-size: 22px;
     line-height: 27px;
@@ -329,30 +363,49 @@ a em{
     color: #1a1a1a;
     font-family: FZZCYSK;
 }
-/*.new-left-carousel,.final-left-carousel,.chase-left-carousel{
-    background-color: wheat;
-    width: 215px;
-    float: left;
-}*/
-.new-left-book,.final-left-book,.chase-left-book{
+.chase-recom-left h3 p{
+    float: right;
+    font: 12px/16px PingFangSC-Regular,'-apple-system',Simsun;
+    margin-top: 10px;
+}
+.chase-recom-left h3 p a:first-child{
+    color: #ed4259;
+}
+.new-left-book,.chase-left-book{
     width: 965px;
     float: left;
     /*margin-left: 20px;*/
 }
-.new-left-book ul,.final-left-book ul{
+.new-left-book ul{
     padding: 20px 0;
     border-top: 1px solid #CCCCCC;
 }
-.new-left-book ul li,.final-left-book ul li{
+.new-left-book ul li{
     display: inline-block;
     margin-left: 25px;
     width: 305px;
 }
-.new-left-book ul li:first-child,.final-left-book ul li:first-child{
+.new-left-book ul li:first-child{
     margin-left: 0;
 }
-.new-left-book ul:first-child,.final-left-book ul:first-child{
+.new-left-book ul:first-child{
     border: none;
+}
+.new-recom-right ul li{
+    padding: 10px 0;
+    border-top: 1px solid #CCCCCC;
+}
+.new-recom-right ul li span.layui-badge{
+    background-color: #8D8D8D;
+}
+.new-recom-right ul li:first-child span.layui-badge{
+    background-color: #bf2c24;
+}
+.new-recom-right ul li:nth-child(2) span.layui-badge{
+    background-color: orangered;
+}
+.new-recom-right ul li:nth-child(3) span.layui-badge{
+    background-color: #e6bf25;
 }
 .book-image{
     float: left;
@@ -424,12 +477,12 @@ a em{
     border-radius: 1px;
 }
 
-.new-recom-right,.final-recom-right,.chase-recom-right{
+.new-recom-right,.chase-recom-right{
     float: right;
     width: 215px;
     margin: 0;
 }
-.new-recom-right h3,.final-recom-right h3,.chase-recom-right h3{
+.new-recom-right h3,.chase-recom-right h3{
     font-size: 18px;
     font-weight: 400;
     line-height: 25px;
@@ -446,4 +499,123 @@ a em{
     line-height: 44px;
     margin-top: 50px;
     background-color: #eee;
+}
+.chase-left-carousel{
+    background-color: #f7f5f0;
+    width: 215px;
+    float: left;
+}
+.chase-left-carousel ul{
+    padding: 0 10px;
+}
+.chase-left-carousel ul li{
+    border-top: 1px solid #CCCCCC;
+    height: 207px;
+}
+.chase-left-carousel ul li:first-child{
+    border: none;
+}
+.chase-book-wrap{
+    padding: 25px 0 12px;
+}
+.chase-carousel-img{
+    width: 80px;
+    height: 100px;
+    float: left;
+}
+.chase-carousel-img a img{
+    height: 100%;
+}
+.chase-carousel-info{
+    float: right;
+    margin-top: 20px;
+}
+.chase-carousel-info h4{
+    text-align: right;
+    font: 15px/20px PingFangSC-Regular,HelveticaNeue-Light,'Helvetica Neue Light','Microsoft YaHei',sans-serif;
+    overflow: hidden;
+    height: 24px;
+    color: #1a1a1a;
+}
+.chase-carousel-info p.digital{
+    font-size: 0;
+    height: 20px;
+    text-align: right;
+    overflow: hidden;
+    margin-bottom: 4px;
+    padding: 3px 0 0;
+    color: #bf2c24;
+}
+.chase-carousel-info p.digital span{
+    font: 12px/20px PingFangSC-Regular,'-apple-system',Simsun;
+}
+.chase-carousel-info p.digital i{
+    font: 12px/20px Arial;
+    margin: 0 3px;
+}
+.chase-carousel-info p.author{
+    text-align: right;
+    font-family: PingFangSC-Regular,'-apple-system',Simsun;
+    font-size: 12px;
+    overflow: hidden;
+    height: 16px;
+}
+.chase-carousel-info p.author a{
+    color: #a6a6a6;
+}
+.chase-left-carousel ul li p.intro{
+    font: 12px/20px PingFangSC-Regular,'-apple-system',Simsun;
+    overflow: hidden;
+    height: 60px;
+    color: #666;
+}
+.chase-left-book{
+    width: 725px;
+    margin-left: 25px;
+}
+.chase-left-book table:first-child{
+    display: inline-table;
+}
+.chase-left-book table{
+    display: none;
+}
+.chase-left-book table tbody tr td{
+    height: 31px;
+    border-bottom: 1px solid #ebebeb;
+}
+.chase-left-book table tbody tr td a{
+    float: left;
+    overflow: hidden;
+    height: 30px;
+}
+.chase-left-book table tbody tr td a.type{
+    font: 14px/30px PingFangSC-Regular,'-apple-system',Simsun;
+    margin-left: -7px;
+    color: grey;
+}
+.chase-left-book table tbody tr td a.name{
+    font: 14px/30px PingFangSC-Regular,'-apple-system',Simsun;
+    color: #1a1a1a;
+}
+.chase-left-book table tbody tr td a.section{
+    font: 12px/30px PingFangSC-Regular,'-apple-system',Simsun;
+    overflow: hidden;
+    max-width: 220px;
+    margin-right: 5px;
+    white-space: normal;
+    text-overflow: ellipsis;
+    color: #666;
+}
+.chase-left-book table tbody tr td a.author{
+    font: 12px/30px PingFangSC-Regular,'-apple-system',Simsun;
+    color: #999;
+}
+.chase-left-book table tbody tr td i{
+    font: 12px/1 Arial;
+    float: right;
+    margin-top: 3px;
+    color: #666;
+}
+.chase-left-book table tbody tr td span.layui-badge{
+    margin-top: 5px;
 }

@@ -17,6 +17,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <script src="static/layui/layui.all.js" charset="utf-8"></script>
     <script src="static/layui/layui.js" charset="utf-8"></script>
+    <script src="static/js/home.js" charset="utf-8"></script>
     <link rel="stylesheet" href="static/layui/css/layui.css" media="all">
     <link rel="stylesheet" href="static/css/style.css" media="all">
     <link rel="stylesheet" href="https://at.alicdn.com/t/font_1165031_ihp3a70vgo.css" media="all">
@@ -238,7 +239,7 @@
     </div>
     <%--榜单推荐--%>
     <div class="rank-recom-content">
-        <div class="rank-recom-new">
+        <div class="rank-recom-list">
             <h3>原创风云榜<i>·</i>新书</h3>
             <ul>
                 <li>
@@ -255,13 +256,36 @@
                     </div>
                 </li>
                 <li>
-                    <span class="layui-badge">2</span>
-                    <a>文娱神国</a>
-                    <a>飞月白</a>
+                    <div class="rank-last">
+                        <span class="layui-badge">2</span>
+                        <a>文娱神国</a>
+                        <a>飞月白</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="rank-last">
+                        <span class="layui-badge">2</span>
+                        <a>文娱神国</a>
+                        <a>飞月白</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="rank-last">
+                        <span class="layui-badge">2</span>
+                        <a>文娱神国</a>
+                        <a>飞月白</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="rank-last">
+                        <span class="layui-badge">2</span>
+                        <a>文娱神国</a>
+                        <a>飞月白</a>
+                    </div>
                 </li>
             </ul>
         </div>
-        <div class="rank-recom-hot">
+        <div class="rank-recom-list">
             <h3>24小时热销榜</h3>
             <ul>
                 <li>
@@ -278,13 +302,15 @@
                     </div>
                 </li>
                 <li>
-                    <span class="layui-badge">2</span>
-                    <a>文娱神国</a>
-                    <a>飞月白</a>
+                    <div class="rank-last">
+                        <span class="layui-badge">2</span>
+                        <a>文娱神国</a>
+                        <a>飞月白</a>
+                    </div>
                 </li>
             </ul>
         </div>
-        <div class="rank-recom-click">
+        <div class="rank-recom-list">
             <h3>新锐会员点击榜</h3>
             <ul>
                 <li>
@@ -301,13 +327,15 @@
                     </div>
                 </li>
                 <li>
-                    <span class="layui-badge">2</span>
-                    <a>文娱神国</a>
-                    <a>飞月白</a>
+                    <div class="rank-last">
+                        <span class="layui-badge">2</span>
+                        <a>文娱神国</a>
+                        <a>飞月白</a>
+                    </div>
                 </li>
             </ul>
         </div>
-        <div class="rank-recom-collect">
+        <div class="rank-recom-list">
             <h3>人气收藏榜</h3>
             <ul>
                 <li>
@@ -324,13 +352,15 @@
                     </div>
                 </li>
                 <li>
-                    <span class="layui-badge">2</span>
-                    <a>文娱神国</a>
-                    <a>飞月白</a>
+                    <div class="rank-last">
+                        <span class="layui-badge">2</span>
+                        <a>文娱神国</a>
+                        <a>飞月白</a>
+                    </div>
                 </li>
             </ul>
         </div>
-        <div class="rank-recom-final">
+        <div class="rank-recom-list">
             <h3>完本榜</h3>
             <ul>
                 <li>
@@ -347,9 +377,11 @@
                     </div>
                 </li>
                 <li>
-                    <span class="layui-badge">2</span>
-                    <a>文娱神国</a>
-                    <a>飞月白</a>
+                    <div class="rank-last">
+                        <span class="layui-badge">2</span>
+                        <a>文娱神国</a>
+                        <a>飞月白</a>
+                    </div>
                 </li>
             </ul>
         </div>
@@ -497,15 +529,37 @@
         </div>
         <div class="new-recom-right">
             <h3>新人<i>·</i>签约新书榜</h3>
+            <ul>
+                <li>
+                    <div class="rank-one">
+                        <div class="one-left">
+                            <span class="layui-badge">NO.1</span>
+                            <h4><a>欧神</a></h4>
+                            <p><em>10000</em>月票</p>
+                            <p class="author"><a>都市</a><i>·</i><a>唐家三少</a></p>
+                        </div>
+                        <div class="one-right">
+                            <a><img src="https://bookcover.yuewen.com/qdbimg/349573/1012237441/90"></a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="rank-last">
+                        <span class="layui-badge">2</span>
+                        <a>文娱神国</a>
+                        <a>飞月白</a>
+                    </div>
+                </li>
+            </ul>
             <div class="new-right-list"></div>
         </div>
     </div>
     <%--完本精品--%>
-    <div class="final-recom-content">
-        <div class="final-recom-left">
+    <div class="new-recom-content">
+        <div class="new-recom-left">
             <h3>完本精品</h3>
             <%--<div class="final-left-carousel"></div>--%>
-            <div class="final-left-book">
+            <div class="new-left-book">
                 <ul>
                     <li>
                         <div class="book-image">
@@ -640,17 +694,529 @@
                 </ul>
             </div>
         </div>
-        <div class="final-recom-right">
+        <div class="new-recom-right">
             <h3>最近完本</h3>
+            <ul>
+                <li>
+                    <div class="rank-one">
+                        <div class="one-left">
+                            <span class="layui-badge">NO.1</span>
+                            <h4><a>欧神</a></h4>
+                            <p><em>10000</em>月票</p>
+                            <p class="author"><a>都市</a><i>·</i><a>唐家三少</a></p>
+                        </div>
+                        <div class="one-right">
+                            <a><img src="https://bookcover.yuewen.com/qdbimg/349573/1012237441/90"></a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="rank-last">
+                        <span class="layui-badge">2</span>
+                        <a>文娱神国</a>
+                        <a>飞月白</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="rank-last">
+                        <span class="layui-badge">2</span>
+                        <a>文娱神国</a>
+                        <a>飞月白</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="rank-last">
+                        <span class="layui-badge">2</span>
+                        <a>文娱神国</a>
+                        <a>飞月白</a>
+                    </div>
+                </li>
+            </ul>
             <div class="final-right-list"></div>
         </div>
     </div>
         <%--最近更新--%>
         <div class="chase-recom-content">
             <div class="chase-recom-left">
-                <h3>最近更新</h3>
-                <div class="chase-left-carousel"></div>
-                <div class="chase-left-book"></div>
+                <h3>最近更新<p id="all"><a data-i="0">全部</a><span>·</span><a data-i="1">免费</a><span>·</span><a data-i="2">VIP</a></p></h3>
+                <div class="chase-left-carousel">
+                    <ul>
+                        <li>
+                            <div class="chase-book-wrap">
+                                <div class="chase-carousel-img">
+                                    <a><img src="https://bookcover.yuewen.com/qdbimg/349573/1013524580/90"></a>
+                                </div>
+                                <div class="chase-carousel-info">
+                                    <h4><a>都市之步步崛起</a></h4>
+                                    <p class="digital"><span>日更4千+</span><i>·</i><span>8.5分</span></p>
+                                    <p class="author"><a>瞎半身</a></p>
+                                </div>
+                            </div>
+                            <p class="intro">老子终于可以把老子的人生目标提升几个数量级了！</p>
+                        </li>
+                        <li>
+                            <div class="chase-book-wrap">
+                                <div class="chase-carousel-img">
+                                    <a><img src="https://bookcover.yuewen.com/qdbimg/349573/1013524580/90"></a>
+                                </div>
+                                <div class="chase-carousel-info">
+                                    <h4><a>都市之步步崛起</a></h4>
+                                    <p class="digital"><span>日更4千+</span><i>·</i><span>8.5分</span></p>
+                                    <p class="author"><a>瞎半身</a></p>
+                                </div>
+                            </div>
+                            <p class="intro">老子终于可以把老子的人生目标提升几个数量级了！</p>
+                        </li>
+                        <li>
+                            <div class="chase-book-wrap">
+                                <div class="chase-carousel-img">
+                                    <a><img src="https://bookcover.yuewen.com/qdbimg/349573/1013524580/90"></a>
+                                </div>
+                                <div class="chase-carousel-info">
+                                    <h4><a>都市之步步崛起</a></h4>
+                                    <p class="digital"><span>日更4千+</span><i>·</i><span>8.5分</span></p>
+                                    <p class="author"><a>瞎半身</a></p>
+                                </div>
+                            </div>
+                            <p class="intro">老子终于可以把老子的人生目标提升几个数量级了！</p>
+                        </li>
+                    </ul>
+                </div>
+                <div id="chase-left-book" class="chase-left-book">
+                    <table width="100%">
+                        <tbody>
+                            <tr>
+                                <td><a class="type"><em>「</em>都市<em>」</em></a></td>
+                                <td><a class="name">青创时代</a></td>
+                                <td><a class="section">第五章魏浩然</a>
+                                <td><a class="author">朗馥</a></td>
+                                <td><i>04-30 20:53</i></td>
+                            </tr>
+                            <tr>
+                                <td><a class="type"><em>「</em>游戏<em>」</em></a></td>
+                                <td><a class="name">王者荣耀之射手曙光</a></td>
+                                <td><a class="section">第三百三十八章训练基地的晚上（上）</a> <span class="layui-badge">VIP</span></td>
+                                <td><a class="author">偲児</a></td>
+                                <td><i>04-30 20:52</i></td>
+                            </tr>
+                            <tr>
+                                <td><a class="type"><em>「</em>都市<em>」</em></a></td>
+                                <td><a class="name">青创时代</a></td>
+                                <td><a class="section">第五章魏浩然</a>
+                                <td><a class="author">朗馥</a></td>
+                                <td><i>04-30 20:53</i></td>
+                            </tr>
+                            <tr>
+                                <td><a class="type"><em>「</em>游戏<em>」</em></a></td>
+                                <td><a class="name">王者荣耀之射手曙光</a></td>
+                                <td><a class="section">第三百三十八章训练基地的晚上（上）</a>
+                                <td><a class="author">偲児</a></td>
+                                <td><i>04-30 20:52</i></td>
+                            </tr>
+                            <tr>
+                                <td><a class="type"><em>「</em>都市<em>」</em></a></td>
+                                <td><a class="name">青创时代</a></td>
+                                <td><a class="section">第五章魏浩然</a> <span class="layui-badge">VIP</span></td>
+                                <td><a class="author">朗馥</a></td>
+                                <td><i>04-30 20:53</i></td>
+                            </tr>
+                            <tr>
+                                <td><a class="type"><em>「</em>游戏<em>」</em></a></td>
+                                <td><a class="name">王者荣耀之射手曙光</a></td>
+                                <td><a class="section">第三百三十八章训练基地的晚上（上）</a> <span class="layui-badge">VIP</span></td>
+                                <td><a class="author">偲児</a></td>
+                                <td><i>04-30 20:52</i></td>
+                            </tr>
+                            <tr>
+                                <td><a class="type"><em>「</em>都市<em>」</em></a></td>
+                                <td><a class="name">青创时代</a></td>
+                                <td><a class="section">第五章魏浩然</a>
+                                <td><a class="author">朗馥</a></td>
+                                <td><i>04-30 20:53</i></td>
+                            </tr>
+                            <tr>
+                                <td><a class="type"><em>「</em>游戏<em>」</em></a></td>
+                                <td><a class="name">王者荣耀之射手曙光</a></td>
+                                <td><a class="section">第三百三十八章训练基地的晚上（上）</a> <span class="layui-badge">VIP</span></td>
+                                <td><a class="author">偲児</a></td>
+                                <td><i>04-30 20:52</i></td>
+                            </tr>
+                            <tr>
+                                <td><a class="type"><em>「</em>都市<em>」</em></a></td>
+                                <td><a class="name">青创时代</a></td>
+                                <td><a class="section">第五章魏浩然</a>
+                                <td><a class="author">朗馥</a></td>
+                                <td><i>04-30 20:53</i></td>
+                            </tr>
+                            <tr>
+                                <td><a class="type"><em>「</em>游戏<em>」</em></a></td>
+                                <td><a class="name">王者荣耀之射手曙光</a></td>
+                                <td><a class="section">第三百三十八章训练基地的晚上（上）</a> <span class="layui-badge">VIP</span></td>
+                                <td><a class="author">偲児</a></td>
+                                <td><i>04-30 20:52</i></td>
+                            </tr>
+                            <tr>
+                                <td><a class="type"><em>「</em>都市<em>」</em></a></td>
+                                <td><a class="name">青创时代</a></td>
+                                <td><a class="section">第五章魏浩然</a>
+                                <td><a class="author">朗馥</a></td>
+                                <td><i>04-30 20:53</i></td>
+                            </tr>
+                            <tr>
+                                <td><a class="type"><em>「</em>游戏<em>」</em></a></td>
+                                <td><a class="name">王者荣耀之射手曙光</a></td>
+                                <td><a class="section">第三百三十八章训练基地的晚上（上）</a>
+                                <td><a class="author">偲児</a></td>
+                                <td><i>04-30 20:52</i></td>
+                            </tr>
+                            <tr>
+                                <td><a class="type"><em>「</em>都市<em>」</em></a></td>
+                                <td><a class="name">青创时代</a></td>
+                                <td><a class="section">第五章魏浩然</a> <span class="layui-badge">VIP</span></td>
+                                <td><a class="author">朗馥</a></td>
+                                <td><i>04-30 20:53</i></td>
+                            </tr>
+                            <tr>
+                                <td><a class="type"><em>「</em>游戏<em>」</em></a></td>
+                                <td><a class="name">王者荣耀之射手曙光</a></td>
+                                <td><a class="section">第三百三十八章训练基地的晚上（上）</a>
+                                <td><a class="author">偲児</a></td>
+                                <td><i>04-30 20:52</i></td>
+                            </tr>
+                            <tr>
+                                <td><a class="type"><em>「</em>都市<em>」</em></a></td>
+                                <td><a class="name">青创时代</a></td>
+                                <td><a class="section">第五章魏浩然</a> <span class="layui-badge">VIP</span></td>
+                                <td><a class="author">朗馥</a></td>
+                                <td><i>04-30 20:53</i></td>
+                            </tr>
+                            <tr>
+                                <td><a class="type"><em>「</em>游戏<em>」</em></a></td>
+                                <td><a class="name">王者荣耀之射手曙光</a></td>
+                                <td><a class="section">第三百三十八章训练基地的晚上（上）</a>
+                                <td><a class="author">偲児</a></td>
+                                <td><i>04-30 20:52</i></td>
+                            </tr>
+                            <tr>
+                                <td><a class="type"><em>「</em>都市<em>」</em></a></td>
+                                <td><a class="name">青创时代</a></td>
+                                <td><a class="section">第五章魏浩然</a>
+                                <td><a class="author">朗馥</a></td>
+                                <td><i>04-30 20:53</i></td>
+                            </tr>
+                            <tr>
+                                <td><a class="type"><em>「</em>游戏<em>」</em></a></td>
+                                <td><a class="name">王者荣耀之射手曙光</a></td>
+                                <td><a class="section">第三百三十八章训练基地的晚上（上）</a> <span class="layui-badge">VIP</span></td>
+                                <td><a class="author">偲児</a></td>
+                                <td><i>04-30 20:52</i></td>
+                            </tr>
+                            <tr>
+                                <td><a class="type"><em>「</em>都市<em>」</em></a></td>
+                                <td><a class="name">青创时代</a></td>
+                                <td><a class="section">第五章魏浩然</a>
+                                <td><a class="author">朗馥</a></td>
+                                <td><i>04-30 20:53</i></td>
+                            </tr>
+                            <tr>
+                                <td><a class="type"><em>「</em>游戏<em>」</em></a></td>
+                                <td><a class="name">王者荣耀之射手曙光</a></td>
+                                <td><a class="section">第三百三十八章训练基地的晚上（上）</a>
+                                <td><a class="author">偲児</a></td>
+                                <td><i>04-30 20:52</i></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table width="100%">
+                        <tbody>
+                        <tr>
+                            <td><a class="type"><em>「</em>都市<em>」</em></a></td>
+                            <td><a class="name">青创时代</a></td>
+                            <td><a class="section">第五章魏浩然</a>
+                            <td><a class="author">朗馥</a></td>
+                            <td><i>04-30 20:53</i></td>
+                        </tr>
+                        <tr>
+                            <td><a class="type"><em>「</em>游戏<em>」</em></a></td>
+                            <td><a class="name">王者荣耀之射手曙光</a></td>
+                            <td><a class="section">第三百三十八章训练基地的晚上（上）</a>
+                            <td><a class="author">偲児</a></td>
+                            <td><i>04-30 20:52</i></td>
+                        </tr>
+                        <tr>
+                            <td><a class="type"><em>「</em>都市<em>」</em></a></td>
+                            <td><a class="name">青创时代</a></td>
+                            <td><a class="section">第五章魏浩然</a>
+                            <td><a class="author">朗馥</a></td>
+                            <td><i>04-30 20:53</i></td>
+                        </tr>
+                        <tr>
+                            <td><a class="type"><em>「</em>游戏<em>」</em></a></td>
+                            <td><a class="name">王者荣耀之射手曙光</a></td>
+                            <td><a class="section">第三百三十八章训练基地的晚上（上）</a>
+                            <td><a class="author">偲児</a></td>
+                            <td><i>04-30 20:52</i></td>
+                        </tr>
+                        <tr>
+                            <td><a class="type"><em>「</em>都市<em>」</em></a></td>
+                            <td><a class="name">青创时代</a></td>
+                            <td><a class="section">第五章魏浩然</a>
+                            <td><a class="author">朗馥</a></td>
+                            <td><i>04-30 20:53</i></td>
+                        </tr>
+                        <tr>
+                            <td><a class="type"><em>「</em>游戏<em>」</em></a></td>
+                            <td><a class="name">王者荣耀之射手曙光</a></td>
+                            <td><a class="section">第三百三十八章训练基地的晚上（上）</a>
+                            <td><a class="author">偲児</a></td>
+                            <td><i>04-30 20:52</i></td>
+                        </tr>
+                        <tr>
+                            <td><a class="type"><em>「</em>都市<em>」</em></a></td>
+                            <td><a class="name">青创时代</a></td>
+                            <td><a class="section">第五章魏浩然</a>
+                            <td><a class="author">朗馥</a></td>
+                            <td><i>04-30 20:53</i></td>
+                        </tr>
+                        <tr>
+                            <td><a class="type"><em>「</em>游戏<em>」</em></a></td>
+                            <td><a class="name">王者荣耀之射手曙光</a></td>
+                            <td><a class="section">第三百三十八章训练基地的晚上（上）</a>
+                            <td><a class="author">偲児</a></td>
+                            <td><i>04-30 20:52</i></td>
+                        </tr>
+                        <tr>
+                            <td><a class="type"><em>「</em>都市<em>」</em></a></td>
+                            <td><a class="name">青创时代</a></td>
+                            <td><a class="section">第五章魏浩然</a>
+                            <td><a class="author">朗馥</a></td>
+                            <td><i>04-30 20:53</i></td>
+                        </tr>
+                        <tr>
+                            <td><a class="type"><em>「</em>游戏<em>」</em></a></td>
+                            <td><a class="name">王者荣耀之射手曙光</a></td>
+                            <td><a class="section">第三百三十八章训练基地的晚上（上）</a>
+                            <td><a class="author">偲児</a></td>
+                            <td><i>04-30 20:52</i></td>
+                        </tr>
+                        <tr>
+                            <td><a class="type"><em>「</em>都市<em>」</em></a></td>
+                            <td><a class="name">青创时代</a></td>
+                            <td><a class="section">第五章魏浩然</a>
+                            <td><a class="author">朗馥</a></td>
+                            <td><i>04-30 20:53</i></td>
+                        </tr>
+                        <tr>
+                            <td><a class="type"><em>「</em>游戏<em>」</em></a></td>
+                            <td><a class="name">王者荣耀之射手曙光</a></td>
+                            <td><a class="section">第三百三十八章训练基地的晚上（上）</a>
+                            <td><a class="author">偲児</a></td>
+                            <td><i>04-30 20:52</i></td>
+                        </tr>
+                        <tr>
+                            <td><a class="type"><em>「</em>都市<em>」</em></a></td>
+                            <td><a class="name">青创时代</a></td>
+                            <td><a class="section">第五章魏浩然</a>
+                            <td><a class="author">朗馥</a></td>
+                            <td><i>04-30 20:53</i></td>
+                        </tr>
+                        <tr>
+                            <td><a class="type"><em>「</em>游戏<em>」</em></a></td>
+                            <td><a class="name">王者荣耀之射手曙光</a></td>
+                            <td><a class="section">第三百三十八章训练基地的晚上（上）</a>
+                            <td><a class="author">偲児</a></td>
+                            <td><i>04-30 20:52</i></td>
+                        </tr>
+                        <tr>
+                            <td><a class="type"><em>「</em>都市<em>」</em></a></td>
+                            <td><a class="name">青创时代</a></td>
+                            <td><a class="section">第五章魏浩然</a>
+                            <td><a class="author">朗馥</a></td>
+                            <td><i>04-30 20:53</i></td>
+                        </tr>
+                        <tr>
+                            <td><a class="type"><em>「</em>游戏<em>」</em></a></td>
+                            <td><a class="name">王者荣耀之射手曙光</a></td>
+                            <td><a class="section">第三百三十八章训练基地的晚上（上）</a>
+                            <td><a class="author">偲児</a></td>
+                            <td><i>04-30 20:52</i></td>
+                        </tr>
+                        <tr>
+                            <td><a class="type"><em>「</em>都市<em>」</em></a></td>
+                            <td><a class="name">青创时代</a></td>
+                            <td><a class="section">第五章魏浩然</a>
+                            <td><a class="author">朗馥</a></td>
+                            <td><i>04-30 20:53</i></td>
+                        </tr>
+                        <tr>
+                            <td><a class="type"><em>「</em>游戏<em>」</em></a></td>
+                            <td><a class="name">王者荣耀之射手曙光</a></td>
+                            <td><a class="section">第三百三十八章训练基地的晚上（上）</a>
+                            <td><a class="author">偲児</a></td>
+                            <td><i>04-30 20:52</i></td>
+                        </tr>
+                        <tr>
+                            <td><a class="type"><em>「</em>都市<em>」</em></a></td>
+                            <td><a class="name">青创时代</a></td>
+                            <td><a class="section">第五章魏浩然</a>
+                            <td><a class="author">朗馥</a></td>
+                            <td><i>04-30 20:53</i></td>
+                        </tr>
+                        <tr>
+                            <td><a class="type"><em>「</em>游戏<em>」</em></a></td>
+                            <td><a class="name">王者荣耀之射手曙光</a></td>
+                            <td><a class="section">第三百三十八章训练基地的晚上（上）</a>
+                            <td><a class="author">偲児</a></td>
+                            <td><i>04-30 20:52</i></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <table width="100%">
+                        <tbody>
+                        <tr>
+                            <td><a class="type"><em>「</em>都市<em>」</em></a></td>
+                            <td><a class="name">青创时代</a></td>
+                            <td><a class="section">第五章魏浩然</a> <span class="layui-badge">VIP</span></td>
+                            <td><a class="author">朗馥</a></td>
+                            <td><i>04-30 20:53</i></td>
+                        </tr>
+                        <tr>
+                            <td><a class="type"><em>「</em>游戏<em>」</em></a></td>
+                            <td><a class="name">王者荣耀之射手曙光</a></td>
+                            <td><a class="section">第三百三十八章训练基地的晚上（上）</a> <span class="layui-badge">VIP</span></td>
+                            <td><a class="author">偲児</a></td>
+                            <td><i>04-30 20:52</i></td>
+                        </tr>
+                        <tr>
+                            <td><a class="type"><em>「</em>都市<em>」</em></a></td>
+                            <td><a class="name">青创时代</a></td>
+                            <td><a class="section">第五章魏浩然</a> <span class="layui-badge">VIP</span></td>
+                            <td><a class="author">朗馥</a></td>
+                            <td><i>04-30 20:53</i></td>
+                        </tr>
+                        <tr>
+                            <td><a class="type"><em>「</em>游戏<em>」</em></a></td>
+                            <td><a class="name">王者荣耀之射手曙光</a></td>
+                            <td><a class="section">第三百三十八章训练基地的晚上（上）</a> <span class="layui-badge">VIP</span></td>
+                            <td><a class="author">偲児</a></td>
+                            <td><i>04-30 20:52</i></td>
+                        </tr>
+                        <tr>
+                            <td><a class="type"><em>「</em>都市<em>」</em></a></td>
+                            <td><a class="name">青创时代</a></td>
+                            <td><a class="section">第五章魏浩然</a> <span class="layui-badge">VIP</span></td>
+                            <td><a class="author">朗馥</a></td>
+                            <td><i>04-30 20:53</i></td>
+                        </tr>
+                        <tr>
+                            <td><a class="type"><em>「</em>游戏<em>」</em></a></td>
+                            <td><a class="name">王者荣耀之射手曙光</a></td>
+                            <td><a class="section">第三百三十八章训练基地的晚上（上）</a> <span class="layui-badge">VIP</span></td>
+                            <td><a class="author">偲児</a></td>
+                            <td><i>04-30 20:52</i></td>
+                        </tr>
+                        <tr>
+                            <td><a class="type"><em>「</em>都市<em>」</em></a></td>
+                            <td><a class="name">青创时代</a></td>
+                            <td><a class="section">第五章魏浩然</a> <span class="layui-badge">VIP</span></td>
+                            <td><a class="author">朗馥</a></td>
+                            <td><i>04-30 20:53</i></td>
+                        </tr>
+                        <tr>
+                            <td><a class="type"><em>「</em>游戏<em>」</em></a></td>
+                            <td><a class="name">王者荣耀之射手曙光</a></td>
+                            <td><a class="section">第三百三十八章训练基地的晚上（上）</a> <span class="layui-badge">VIP</span></td>
+                            <td><a class="author">偲児</a></td>
+                            <td><i>04-30 20:52</i></td>
+                        </tr>
+                        <tr>
+                            <td><a class="type"><em>「</em>都市<em>」</em></a></td>
+                            <td><a class="name">青创时代</a></td>
+                            <td><a class="section">第五章魏浩然</a> <span class="layui-badge">VIP</span></td>
+                            <td><a class="author">朗馥</a></td>
+                            <td><i>04-30 20:53</i></td>
+                        </tr>
+                        <tr>
+                            <td><a class="type"><em>「</em>游戏<em>」</em></a></td>
+                            <td><a class="name">王者荣耀之射手曙光</a></td>
+                            <td><a class="section">第三百三十八章训练基地的晚上（上）</a> <span class="layui-badge">VIP</span></td>
+                            <td><a class="author">偲児</a></td>
+                            <td><i>04-30 20:52</i></td>
+                        </tr>
+                        <tr>
+                            <td><a class="type"><em>「</em>都市<em>」</em></a></td>
+                            <td><a class="name">青创时代</a></td>
+                            <td><a class="section">第五章魏浩然</a> <span class="layui-badge">VIP</span></td>
+                            <td><a class="author">朗馥</a></td>
+                            <td><i>04-30 20:53</i></td>
+                        </tr>
+                        <tr>
+                            <td><a class="type"><em>「</em>游戏<em>」</em></a></td>
+                            <td><a class="name">王者荣耀之射手曙光</a></td>
+                            <td><a class="section">第三百三十八章训练基地的晚上（上）</a> <span class="layui-badge">VIP</span></td>
+                            <td><a class="author">偲児</a></td>
+                            <td><i>04-30 20:52</i></td>
+                        </tr>
+                        <tr>
+                            <td><a class="type"><em>「</em>都市<em>」</em></a></td>
+                            <td><a class="name">青创时代</a></td>
+                            <td><a class="section">第五章魏浩然</a> <span class="layui-badge">VIP</span></td>
+                            <td><a class="author">朗馥</a></td>
+                            <td><i>04-30 20:53</i></td>
+                        </tr>
+                        <tr>
+                            <td><a class="type"><em>「</em>游戏<em>」</em></a></td>
+                            <td><a class="name">王者荣耀之射手曙光</a></td>
+                            <td><a class="section">第三百三十八章训练基地的晚上（上）</a> <span class="layui-badge">VIP</span></td>
+                            <td><a class="author">偲児</a></td>
+                            <td><i>04-30 20:52</i></td>
+                        </tr>
+                        <tr>
+                            <td><a class="type"><em>「</em>都市<em>」</em></a></td>
+                            <td><a class="name">青创时代</a></td>
+                            <td><a class="section">第五章魏浩然</a> <span class="layui-badge">VIP</span></td>
+                            <td><a class="author">朗馥</a></td>
+                            <td><i>04-30 20:53</i></td>
+                        </tr>
+                        <tr>
+                            <td><a class="type"><em>「</em>游戏<em>」</em></a></td>
+                            <td><a class="name">王者荣耀之射手曙光</a></td>
+                            <td><a class="section">第三百三十八章训练基地的晚上（上）</a> <span class="layui-badge">VIP</span></td>
+                            <td><a class="author">偲児</a></td>
+                            <td><i>04-30 20:52</i></td>
+                        </tr>
+                        <tr>
+                            <td><a class="type"><em>「</em>都市<em>」</em></a></td>
+                            <td><a class="name">青创时代</a></td>
+                            <td><a class="section">第五章魏浩然</a> <span class="layui-badge">VIP</span></td>
+                            <td><a class="author">朗馥</a></td>
+                            <td><i>04-30 20:53</i></td>
+                        </tr>
+                        <tr>
+                            <td><a class="type"><em>「</em>游戏<em>」</em></a></td>
+                            <td><a class="name">王者荣耀之射手曙光</a></td>
+                            <td><a class="section">第三百三十八章训练基地的晚上（上）</a> <span class="layui-badge">VIP</span></td>
+                            <td><a class="author">偲児</a></td>
+                            <td><i>04-30 20:52</i></td>
+                        </tr>
+                        <tr>
+                            <td><a class="type"><em>「</em>都市<em>」</em></a></td>
+                            <td><a class="name">青创时代</a></td>
+                            <td><a class="section">第五章魏浩然</a> <span class="layui-badge">VIP</span></td>
+                            <td><a class="author">朗馥</a></td>
+                            <td><i>04-30 20:53</i></td>
+                        </tr>
+                        <tr>
+                            <td><a class="type"><em>「</em>游戏<em>」</em></a></td>
+                            <td><a class="name">王者荣耀之射手曙光</a></td>
+                            <td><a class="section">第三百三十八章训练基地的晚上（上）</a> <span class="layui-badge">VIP</span></td>
+                            <td><a class="author">偲児</a></td>
+                            <td><i>04-30 20:52</i></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+
             </div>
             <div class="chase-recom-right">
                 <h3>大神俱乐部</h3>
@@ -660,20 +1226,5 @@
 </div>
 <%@include file="common/footer.jsp"%>
 </body>
-<script>
-    layui.use(['carousel', 'element', 'form'], function () {
-        var carousel = layui.carousel
-            , form = layui.form;
-        var $ = layui.jquery
-            , element = layui.element; //Tab的切换功能，切换事件监听等，需要依赖element模块
 
-        //图片轮播
-        carousel.render({
-            elem: '#recom-carousel'
-            , width: '750px'
-            , height: '421px'
-            , interval: 5000
-        });
-    });
-</script>
 </html>
