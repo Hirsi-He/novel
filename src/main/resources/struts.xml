@@ -18,12 +18,21 @@
     </package>
     <!--页面跳转-->
     <package name="page" extends="struts-default" namespace="/">
+        <!--首页-->
         <action name="home" class="com.novel.action.PageAction" method="homePage">
             <result name="homePage">/WEB-INF/pages/home.jsp</result>
             <!--<allowed-methods>m1,saveUser</allowed-methods>--><!-- struts 2.5 之后，使用通配符必须加上这一行 ，否则无法使用通配符访问-->
         </action>
+        <!--后台-->
         <action name="admin" class="com.novel.action.PageAction" method="adminPage">
             <result name="adminPage">/WEB-INF/pages/admin/admin.jsp</result>
+        </action>
+    </package>
+
+    <package name="admin" extends="struts-default" namespace="/admin">
+        <action name="admin_*" class="com.novel.action.AdminAction" method="{1}">
+            <result name="*">/WEB-INF/pages/admin/content/{1}.jsp</result>
+            <allowed-methods>console,type,novel,user,author,administrators</allowed-methods>
         </action>
     </package>
 </struts>

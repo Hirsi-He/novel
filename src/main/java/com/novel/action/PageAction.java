@@ -36,4 +36,11 @@ public class PageAction extends ActionSupport {
         ActionContext.getContext().put("typeList", typeList);
         return "homePage";
     }
+
+    public String consolePage(){
+        return "console";
+    }
+    public String topPage(){
+        return "topPage";
+    }
 }

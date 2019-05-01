@@ -20,7 +20,7 @@
     <script src="static/js/home.js" charset="utf-8"></script>
     <link rel="stylesheet" href="static/layui/css/layui.css" media="all">
     <link rel="stylesheet" href="static/css/style.css" media="all">
-    <link rel="stylesheet" href="https://at.alicdn.com/t/font_1165031_ihp3a70vgo.css" media="all">
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_1165031_zgtwr8z283.css" media="all">
     <link data-ignore="true" rel="shortcut icon" type="image/x-icon" href="static/favicon.ico">
 </head>
 <body>
